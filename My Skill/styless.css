@@ -1,0 +1,102 @@
+*, html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container{
+    width: 100%;
+    background-color: #14729E;
+    display: block;
+    padding: 10px;
+    margin: -20px;
+    position: fixed;
+}
+
+h1{
+    color: white;
+    padding: 0 40px;
+    margin-bottom: -10px;
+    font-size: 2em;
+}
+
+h2{
+    display: flexbox;
+    margin-top: 20px;
+}
+
+h3{
+    display: flexbox;
+    margin-top: 15px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu > li{
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.content{
+    max-width: 700px;
+    margin: 15px auto;
+    text-align: justify;
+    line-height: 1.5;
+    padding-top: 100px;
+}
+
+.content > .about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content > .about > h2{
+    padding-bottom: 15px;
+}
+
+.content > .about > .text-about{
+    width: 400px;
+}
+
+.content  > .about > .img-1{
+    margin-top: 35px;
+}
+
+.project{
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: #14729E;
+    padding: 0;
+    margin: -10px;
+    margin-top: 50px;
+}
+
+footer > i{
+    color: white;
+    font-weight: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.img-2{
+    height: 2em;
+    width: 2em;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 10px;
+    padding: 5px;
+}
